@@ -1,0 +1,33 @@
+#products-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+#products-container .product-container {
+  width: 300px;
+  height: 62vh;
+  border-radius: 10px;
+  background-color: #FFCDEA;
+}
+#products-container #img-product {
+  width: 300px;
+  height: 300px;
+}
+
+#icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#icon-container button {
+  display: flex;
+  border: none;
+  background: none;
+  border-radius: 5px;
+}
+#icon-container button:hover {
+  background-color: #FB9AD1;
+}
+#icon-container button:active {
+  background-color: #BC7FCD;
+}/*# sourceMappingURL=styles.css.map */

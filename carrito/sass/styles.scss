@@ -1,0 +1,23 @@
+@import 'var';
+@import 'home';
+
+#icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    button {
+        display: flex;
+        border: none;
+        background: none;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: $color-hover-buttons;
+    }
+
+    button:active {
+        background-color: $color-click-buttons;
+    }
+}
