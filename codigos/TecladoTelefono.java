@@ -8,6 +8,7 @@ public class TecladoTelefono {
     // Diccionario para mapear números a letras según el teclado numérico de los teléfonos antiguos
     private static final Map<Character, String> teclado = new HashMap<>();
     static {
+        teclado.put('1', "");
         teclado.put('2', "abc");
         teclado.put('3', "def");
         teclado.put('4', "ghi");
@@ -16,6 +17,7 @@ public class TecladoTelefono {
         teclado.put('7', "pqrs");
         teclado.put('8', "tuv");
         teclado.put('9', "wxyz");
+        teclado.put('0', "");
     }
 
     // Método principal para generar todas las combinaciones
