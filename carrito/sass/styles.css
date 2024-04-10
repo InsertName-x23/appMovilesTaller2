@@ -14,6 +14,26 @@
   height: 300px;
 }
 
+#container-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container-cart #label-box {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+#container-cart #products-cart {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+}
+#container-cart #products-cart div {
+  display: flex;
+  justify-content: space-around;
+}
+
 #icon-container {
   display: flex;
   justify-content: space-around;
