@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../sass/styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div id="d_container">
+            <!-- Here the music is where is repreduce -->
+            <div id="selected_song">
+                <div id="info_song">
+                    <img src="" alt="" id="img_selected_song">
+                    <div id="song_details_in_song_selected">     
+                        <p id="song_title">song title</p>
+                        <p id="artist">artist</p>
+                    </div>
+                </div>
+    
+                <div id="buttons_songs">
+                    <button id="previous_song">Anterior</button>
+                    <button id="play_or_stop_selected_song">Reproducir/Pausar</button>
+                    <button id="next_song">Siguiente</button>
+                </div>
+            </div>
+            
+            <!-- here is the place that contain the palylist -->
+            <ul id="playlist">
+                <li data-src="../music/Kiltro - The Drunk.mp3">Kiltro - The Drunk</li>
+                <li data-src="../music/The Queen of White Lies - The Orion Experience.mp3">
+                The Queen of White Lies - The Orion Experience</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 3</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 4</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 5</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 6</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 7</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 8</li>
+                <li data-src="ruta/de/cancion3.mp3">Canción 9</li>
+            </ul>
+            <!-- here you can search the music you wnat to select -->
+            <input type="text" id="search_music" placeholder="Search a song">
+        </div>
+    
+        <script src="../js/scryp.js"></script>
+    </body>
+    </html>

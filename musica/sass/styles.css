@@ -1,0 +1,95 @@
+#selected_song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+#selected_song #info_song {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row;
+  width: 100%;
+  height: 100%;
+}
+#selected_song #info_song #img_selected_song {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+}
+#selected_song #info_song #song_title {
+  font-size: 24px;
+}
+#selected_song #info_song #artist {
+  font-size: 18px;
+  color: #D20062;
+}
+#selected_song #buttons_songs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#selected_song #buttons_songs button {
+  width: 25%;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #D20062;
+  cursor: pointer;
+}
+#selected_song #buttons_songs button:hover {
+  background-color: #dcdcdc;
+}
+
+.selected {
+  color: #D20062 !important;
+}
+
+#playlist {
+  width: 100%;
+  height: 60%;
+  overflow: scroll;
+}
+#playlist li {
+  padding-left: 20px;
+  color: #7c7c7c;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  height: 10vh;
+  width: 100%;
+  border-width: 1px 0 1px 0;
+  border-color: #f0f0f0;
+  border-style: solid;
+  box-sizing: border-box;
+}
+#playlist li:first-child {
+  border-top-width: 2px;
+}
+#playlist li:last-child {
+  border-bottom-width: 2px;
+}
+
+#search_music {
+  height: 10%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#d_container {
+  gap: 10px;
+  display: flex;
+  flex-flow: column;
+  height: 500px;
+  width: 300px;
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
