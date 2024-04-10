@@ -38,6 +38,7 @@
   border: none;
   border-radius: 4px;
   font-size: 12px;
+  font-style: center;
   color: #D20062;
   cursor: pointer;
 }
@@ -55,6 +56,7 @@
   overflow: scroll;
 }
 #playlist li {
+  cursor: pointer;
   padding-left: 20px;
   color: #7c7c7c;
   display: flex;
@@ -97,4 +99,6 @@
   height: 500px;
   width: 300px;
   background-color: #ffffff;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
